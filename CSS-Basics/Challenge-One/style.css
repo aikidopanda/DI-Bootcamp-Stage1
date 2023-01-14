@@ -1,0 +1,17 @@
+body{
+	background-color: lightblue;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	text-align: center;
+	padding-bottom: 2px;
+}
+
+li::first-letter{
+	font-family:Georgia;
+	font-weight:bold;
+}

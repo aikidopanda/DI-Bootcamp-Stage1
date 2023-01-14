@@ -1,0 +1,43 @@
+body{
+	background-color: rgba(255,178,102,0.75);
+}
+
+#wrap{
+	background-color: rgb(255,255,224);
+	border: black dotted 3.5px;
+	width: 1000px;
+	margin:auto;
+}
+
+h1{
+	text-align: center;
+	font-style: italic;
+	font-family: verdana;
+	border-bottom: black dotted 3.5px;
+	padding-bottom:12px;
+}
+
+p{
+	text-align: justify;
+	margin:15px;
+	font-family: Georgia;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	text-align: center;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+li::first-letter{
+	font-weight: bold;
+}
+
+.copyright{
+	text-align: center;
+	font-family: Verdana;	
+}
